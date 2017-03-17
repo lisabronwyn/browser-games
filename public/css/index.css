@@ -7,7 +7,7 @@ body {
     height: 100%;
     top: 0px;
     bottom: 0px;
-    background-image: url("../img/adrian-pelletier-9455.jpg");
+    background-image: url("../img/nasa.jpeg");
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     background-color: #030303;
@@ -168,7 +168,7 @@ body {
 }
 
 @keyframes orbitastronaut {
-    0% {
+    /*0% {
         z-index: 8;
         transform: rotateY(20deg);
         bottom: 0;
@@ -178,15 +178,36 @@ body {
     }
     50% {
         z-index: -8;
-        bottom: 100px;
+        bottom: 50px;
     }
     99% {
         z-index: -8;
     }
     100% {
         z-index: 8;
-        transform: rotateY(0deg)to(360deg);
+        transform: rotateY(-360deg)to(0deg);
         bottom: 0;
+    }*/
+
+    0% {
+        z-index: 8;
+        transform: rotate(0);
+    }
+    49% {
+        z-index: 8;
+        transform: rotate(20deg);
+    }
+    50% {
+        z-index: -8;
+        transform: rotate(45deg);
+    }
+    99% {
+        z-index: -8;
+        transform: rotate(60deg);
+    }
+    100% {
+        z-index: 8;
+        transform: rotate(-60deg);
     }
 }
 
@@ -369,16 +390,16 @@ body {
     width: 706px;
     z-index: 7;
     animation: orbitastronaut 100s infinite linear;
-    top: -200px;
+    top: -300px;
 }
 
-/*.astronaut .planet {
+.astronaut .planet {
     width: 70px;
     height: 90px;
     background-image: url("../img/astronaut.png");
-    animation: anti-spin 30s infinite linear;
+    animation: anti-spin 100s infinite linear;
 }*/
 
-/*.astronaut .shadow {
+.astronaut .shadow {
     animation: shadow 100s infinite linear;
-}*/
+}
