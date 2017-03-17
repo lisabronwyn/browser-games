@@ -5,7 +5,7 @@ A collection of games to play in a web browser. See the full list of games in th
 
 ## Installation and Setup
 
-Clone the repo, install npm dependencies, and start the server:
+Fork the repo, clone the repo, install npm dependencies, and start the server:
 
 ```shell-session
 $ git clone git@github.com:lisabronwyn/browser-games.git
