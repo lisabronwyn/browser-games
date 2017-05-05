@@ -23,3 +23,5 @@ Available on:
 ```
 
 Then open `http://localhost:4321/` in your browser of choice and play away!
+
+This project is also located at: http://lisabronwyn.com/browser-games/public/index.html
