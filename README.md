@@ -9,6 +9,7 @@ npm install
 npm start
 Starting up http-server, serving ./public
 Available on: http://127.0.0.1:4321
+              http://172.20.2.110:4321
 
 ```
 
