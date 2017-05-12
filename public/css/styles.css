@@ -1,17 +1,14 @@
-p {
-  font-size: 30px;
-
-}
-
-.canvas {
-    width: 640px;
-    height: 480;
-    border: 1px solid gray;
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    background-color: #34A6FB;
+    color: #333333;
 }
 
 .background {
     background: rgb(52, 166, 251);
-    table-layout: fixed;
+    table-layout:auto;
     border-spacing: 0;
 }
 
