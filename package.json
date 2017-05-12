@@ -1,0 +1,22 @@
+{
+  "name": "browser-games",
+  "version": "1.0.0",
+  "description": "LG goal #363",
+  "main": "platform.js",
+  "scripts": {
+    "start": "http-server ./public -p 4321"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisabronwyn/browser-games.git"
+  },
+  "author": "lisabronwyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisabronwyn/browser-games/issues"
+  },
+  "homepage": "https://github.com/lisabronwyn/browser-games#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
