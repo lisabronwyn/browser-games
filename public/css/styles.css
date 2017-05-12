@@ -1,7 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
     font-weight: 200;
-    font-size: 28px;
+    text-align: center;
     background-color: #34A6FB;
     color: #333333;
 }
