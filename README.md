@@ -63,9 +63,9 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 
 Design and build your own platform-like game. What else can you build with the techniques you came up with in building the Generic Platform Game?
 
-- [x] Game has its own HTML, CSS, and JS
-- [x] Game is playable
-- [x] Game page is linked from `public/index.html`
+- [] Game has its own HTML, CSS, and JS
+- [] Game is playable
+- [] Game page is linked from `public/index.html`
 
 ## Resources
 
