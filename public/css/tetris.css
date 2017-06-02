@@ -1,0 +1,27 @@
+html {
+    background: #CCCCFF;
+    font-family: Montserrat, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+#board {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid black;
+    /*border-bottom: 2px solid #888888;*/
+    background: #FAFAFA;
+    color: #FAFAFA;
+}
+
+#lines {
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+    margin-top: 1em;
+    color: #FAFAFA;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px #888888;
+}
