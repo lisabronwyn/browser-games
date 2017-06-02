@@ -68,7 +68,7 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 - [ ] jQuery is used for DOM manipulation code
 - [x] Tetris game can be found at `public/tetris.html`
 - [x] Tetris game is playable
-- [ ] Players have a score
+- [x] Players have a score
 - [x] Game page is linked from `public/index.html`
 
 ### Stretch
