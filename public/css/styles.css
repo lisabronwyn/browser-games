@@ -1,0 +1,49 @@
+body {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+#main {
+    min-height: 400px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+}
+
+#main> article {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #888888;
+    border-radius: 7pt;
+    background: #F0483C;
+    flex: 3 1 60%;
+    order: 2;
+}
+
+#main> nav {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid #888888;
+    border-radius: 7pt;
+    background-color: #CCCCFF;
+    flex: 1 6 20%;
+    order: 1;
+}
+
+header, footer {
+    display: block;
+    margin: 4px;
+    padding: 5px;
+    min-height: 100px;
+    border: 1px solid #888888;
+    border-radius: 7pt;
+    background: #5ED2EE;
+    color: #FAFAFA:
+}

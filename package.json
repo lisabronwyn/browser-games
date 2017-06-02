@@ -1,0 +1,27 @@
+{
+  "name": "browser-games",
+  "version": "1.0.0",
+  "description": "LG Tetris Browser Game Goal",
+  "main": "tetris.js",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisabronwyn/browser-games.git"
+  },
+  "keywords": [
+    "tetris",
+    "browsergame"
+  ],
+  "author": "lisabronwyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisabronwyn/browser-games/issues"
+  },
+  "homepage": "https://github.com/lisabronwyn/browser-games#readme"
+}
