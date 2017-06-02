@@ -1,7 +1,3 @@
-# Browser Games
-
-Play Tetris in a web browser. See the full list of games in the [games.md](games.md) file.
-
 ## Installation and Setup
 
 Fork the repo, clone the repo, install npm dependencies, and start the server:
@@ -24,21 +20,6 @@ Available on:
 Then open `http://localhost:4321/` in your browser of choice and play away!
 
 This project is also located at: http://lisabronwyn.com/browser-games/public/index.html
-
----
-authors:
-- "tannerwelsh"
-team_size: 1
-goal_id: 362
-title: 'Browser Games: Tetris'
-created_at: '2017-04-29T11:00:00Z'
-labels:
-- practice
-published: true
-level: '2'
-base_xp: 150
-redirect_from: "/goals/362"
----
 
 # Browser Games: Tetris
 
@@ -73,22 +54,22 @@ Your work will be mainly in deciding how to replicate that formal logic and user
 
 #### General
 
-- [ ] Artifact produced is a fork of the [browser-games][browser-games] repo.
-- [ ] Variables, functions, files, etc. have appropriate and meaningful names.
-- [ ] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
-- [ ] There is a clear separation of game logic code from view/rendering code.
-- [ ] All major features are added via pull requests with a clear description and concise commit messages.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [x] Artifact produced is a fork of the [browser-games][browser-games] repo.
+- [x] Variables, functions, files, etc. have appropriate and meaningful names.
+- [x] HTML, CSS, and JS files are well formatted with proper spacing and indentation.
+- [x] There is a clear separation of game logic code from view/rendering code.
+- [x] All major features are added via pull requests with a clear description and concise commit messages.
+- [x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 #### Tetris
 
 - [ ] [User stories](http://searchsoftwarequality.techtarget.com/definition/user-story) and features for the game are added as issues to your repo with the label `feature` or `user-story`
   <br>_You'll have to define these yourself by looking at the rules of the game and coming up with the right user stories & features_
 - [ ] jQuery is used for DOM manipulation code
-- [ ] Tetris game can be found at `public/tetris.html`
-- [ ] Tetris game is playable
+- [x] Tetris game can be found at `public/tetris.html`
+- [x] Tetris game is playable
 - [ ] Players have a score
-- [ ] Game page is linked from `public/index.html`
+- [x] Game page is linked from `public/index.html`
 
 ### Stretch
 
